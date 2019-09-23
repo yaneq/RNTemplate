@@ -14,7 +14,13 @@ export default class HomeScreen extends Component {
     return (
       <View>
         <TouchableOpacity onPress={() => this.props.navigation.navigate('Simple')}>
-          <Text>Open simple screen 2</Text>
+          <Text>Open simple screen</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => this.props.navigation.navigate('Redux')}>
+          <Text>Open redux screen</Text>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => this.props.navigation.navigate('Sagas')}>
+          <Text>Open sagas screen</Text>
         </TouchableOpacity>
       </View>
     )
