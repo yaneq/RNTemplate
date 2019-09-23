@@ -1,2 +1,2 @@
-import App from './src/App.js'
-export default App;
+import AppContainer from './navigation/screens'
+export default AppContainer;
