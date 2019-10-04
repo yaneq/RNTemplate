@@ -1,9 +1,17 @@
 export const TRIVIA_ACTIONS = {
-  LOAD_QUESTION: 'TriviaAction.LOAD'
+  REQUEST_QUESTION: 'TriviaAction.REQUEST_QUESTION',
+  RECEIVE_QUESTION: 'TriviaAction.RECEIVE_QUESTION',
 }
 
-export const loadQuestion = () => {
+export const requestQuestion = () => {
   return {
-    type: TRIVIA_ACTIONS.LOAD_QUESTION
+    type: TRIVIA_ACTIONS.REQUEST_QUESTION,
+  }
+}
+
+export const receiveQuestion = question => {
+  return {
+    type: TRIVIA_ACTIONS.RECEIVE_QUESTION,
+    payload: question,
   }
 }
