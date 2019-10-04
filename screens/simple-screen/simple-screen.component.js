@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {View, Text, TouchableOpacity} from 'react-native';
+import React, {Component} from 'react'
+import {View, Text, TouchableOpacity} from 'react-native'
 
 // export default SimpleScreen = ({color, onPress}) => ( // unNamed
 export const SimpleScreenComponent = (
@@ -12,4 +12,4 @@ export const SimpleScreenComponent = (
       <Text style={{color: color}}>{color}</Text>
     </TouchableOpacity>
   </View>
-);
+)
